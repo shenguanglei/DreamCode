@@ -124,6 +124,14 @@ git remote -v
 git remote add origin 地址
 git push origin master
 
+git remote set-url [--push] <name> <newurl> [<oldurl>]
+git remote set-url --add [--push] <name> <newurl>
+git remote set-url --delete [--push] <name> <url>
+
+修改远程仓库的url只是这个命令的一个功能。
+
+记得很久以前（刚毕业的时候）从一本书中看到，中括号表示是可选项，尖括号表示为必选项，现在找不到了，上网查了查，可以参考这里。关于这个问题，接触过的很多同事都是糊里糊涂的，我觉得这样总是不好，搞计算机，应该严谨一些，做事情，还是应该寻根究底。
+
 ###   克隆
 git clone origin[远程地址]
 
